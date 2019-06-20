@@ -10866,7 +10866,10 @@ color: white;
 {
   color:#98bafa !important;
 }
-
+#footer
+{
+  background-color:#98bafa;
+}
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
