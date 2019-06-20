@@ -10857,6 +10857,16 @@ color: white;
   overflow: hidden;
 }
 
+#closeButton
+{
+  color:white !important;
+}
+
+#topCloseButton
+{
+  color:#98bafa !important;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
