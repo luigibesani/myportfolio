@@ -561,6 +561,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 @media (min-width: 576px) {
@@ -2621,9 +2622,11 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
+  background-color: #148f77;
   border-color: #148f77;
 }
+
+
 
 .btn-primary:focus, .btn-primary.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
@@ -5321,7 +5324,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #2c3e50;
+  background-color: ##7f68f7;
 }
 
 a.badge-secondary:hover, a.badge-secondary:focus {
@@ -6916,17 +6919,21 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #fad898 ;
 }
 
+.masthead-subheading
+{
+  color :#7f68f7;
+}
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #7f68f7 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: ##7f68f7 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7048,7 +7055,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #2c3e50 !important;
+  border-color: ##7f68f7 !important;
 }
 
 .border-success {
@@ -10577,6 +10584,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -10595,17 +10603,30 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #7f68f7;
   border-radius: 1rem;
   border-color: #2c3e50 !important;
 }
+.fas
+{
+  color: #7f68f7;
+}
 
+#menu-bars
+{
+color: white;
+
+}
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
+  background-color: #7f68f7;
+
 }
 
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
+  background-color: #7f68f7;
+
 }
 
 .divider-custom .divider-custom-icon {
@@ -10614,7 +10635,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #7f68f7;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
@@ -10661,6 +10682,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  background-color: #7f68f7;
+}
+
+.navbar
+{
+  background-color:white;
 }
 
 #mainNav .navbar-brand {
@@ -10730,6 +10757,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-heading {
+  color :#7f68f7;
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
