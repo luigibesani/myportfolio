@@ -18,6 +18,8 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
+  --mybeige #fce9c9;
+  --myblue #98bafa;
   --green: #28a745;
   --teal: #ddf64f;
   --cyan: #17a2b8;
@@ -403,7 +405,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  color:#98bafa !important;
+  color:black !important;
 }
 
 .display-1 {
@@ -2167,8 +2169,13 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+  background-color: White;
+  text-indent: 10px;
 }
 
+.form-group-exception{
+  background-color:#fce9c9;
+}
 .form-text {
   display: block;
   margin-top: 0.25rem;
@@ -2582,14 +2589,14 @@ textarea.form-control {
 #sendMessageButton:hover
 {
   background-color:#98bafa !important;
-  color:#fce9c9!important;
+  color:black!important;
 }
 
 
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #98bafa !important;
+  color: black !important;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -4529,10 +4536,10 @@ input[type="button"].btn-block {
 }
 #menu-button
 {
-  color: white!important;
+  color: Black !important;
   border-style: solid;
   border-width: 2px;
-  border-color: #d7f650;
+  border-color: #;
 }
 #menu-button:hover
 {
@@ -6959,7 +6966,7 @@ a.close.disabled {
 
 .masthead-subheading
 {
-  color :#fce9c9;
+  color :black;
 }
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10610,7 +10617,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-section-heading
 {
-  color:#98bafa !important;
+  color:black !important;
 }
 
 .page-section .page-section-heading {
@@ -10645,24 +10652,24 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #fce9c9;
+  background-color: black;
   border-radius: 1rem;
   border-color: #2c3e50 !important;
 }
 
 #firststar
 {
-  color: #fce9c9 !important;
+  color: black !important;
 }
 
 #firstLines
 {
-  background-color: #fce9c9 !important;
+  background-color: black !important;
 }
 
 .fas
 {
-  color: #98bafa;
+  color: black;
 }
 
 #menu-bars
@@ -10672,13 +10679,13 @@ color: white;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
-  background-color: #98bafa;
+  background-color: black;
 
 }
 
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
-  background-color: #98bafa;
+  background-color: black;
 
 }
 
@@ -10688,7 +10695,7 @@ color: white;
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #98bafa;
+  background-color: black;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
@@ -10744,7 +10751,7 @@ color: white;
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: black;
 }
 
 #mainNav .navbar-nav {
@@ -10752,20 +10759,20 @@ color: white;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ddf64f;
+  color: black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   background-color: #98bafa;
-  border-color: #ddf64f;
+  border-color: black;
   border-width: 2px;
   border-style: solid;
 }
@@ -10791,7 +10798,7 @@ color: white;
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: black;
 
   }
 
@@ -10816,7 +10823,7 @@ color: white;
 }
 
 .masthead .masthead-heading {
-  color :#fce9c9;
+  color :black;
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
